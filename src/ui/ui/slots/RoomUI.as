@@ -1,0 +1,102 @@
+/**Created by the LayaAirIDE,do not modify.*/
+package ui.ui.slots {
+	import laya.ui.*;
+	import laya.display.*; 
+	import ui.ui.slots.AutoPanelUI;
+	import ui.ui.slots.DockUI;
+	import ui.ui.slots.LineViewUI;
+	import ui.ui.slots.SetUpUI;
+
+	public class RoomUI extends View {
+		public var box0:Sprite;
+		public var box1:Sprite;
+		public var box2:Sprite;
+		public var box3:Sprite;
+		public var box4:Sprite;
+		public var chinadolls:Image;
+		public var boxeffect4:Sprite;
+		public var boxsprite4:Sprite;
+		public var autopanel:AutoPanelUI;
+		public var dock:DockUI;
+		public var boxeffect0:Sprite;
+		public var img_return:Image;
+		public var boxsprite0:Sprite;
+		public var boxeffect1:Sprite;
+		public var boxsprite1:Sprite;
+		public var boxeffect2:Sprite;
+		public var boxsprite2:Sprite;
+		public var boxeffect3:Sprite;
+		public var boxsprite3:Sprite;
+		public var bigSprite:Sprite;
+		public var linepanel:Sprite;
+		public var num0:LineViewUI;
+		public var num1:LineViewUI;
+		public var num2:LineViewUI;
+		public var num3:LineViewUI;
+		public var num4:LineViewUI;
+		public var num5:LineViewUI;
+		public var num6:LineViewUI;
+		public var num7:LineViewUI;
+		public var num8:LineViewUI;
+		public var num9:LineViewUI;
+		public var num10:LineViewUI;
+		public var num11:LineViewUI;
+		public var num12:LineViewUI;
+		public var num13:LineViewUI;
+		public var num14:LineViewUI;
+		public var num15:LineViewUI;
+		public var num16:LineViewUI;
+		public var num17:LineViewUI;
+		public var num18:LineViewUI;
+		public var num19:LineViewUI;
+		public var num20:LineViewUI;
+		public var num21:LineViewUI;
+		public var num22:LineViewUI;
+		public var num23:LineViewUI;
+		public var num24:LineViewUI;
+		public var line1:Image;
+		public var line2:Image;
+		public var line3:Image;
+		public var line4:Image;
+		public var line5:Image;
+		public var line6:Image;
+		public var line7:Image;
+		public var line8:Image;
+		public var line9:Image;
+		public var line10:Image;
+		public var line11:Image;
+		public var line12:Image;
+		public var line13:Image;
+		public var line14:Image;
+		public var line15:Image;
+		public var line16:Image;
+		public var line17:Image;
+		public var line18:Image;
+		public var line19:Image;
+		public var line20:Image;
+		public var line21:Image;
+		public var line22:Image;
+		public var line23:Image;
+		public var line24:Image;
+		public var line25:Image;
+		public var setup:SetUpUI;
+		public var btn_return:Button;
+		public var img_system:Image;
+		public var system:Button;
+		public var freegame:Panel;
+		public var freenum:Label;
+		public var rewardPanle:Panel;
+		public var freeReward:Label;
+		public var testsprite:Sprite;
+
+		public static var uiView:Object =/*[STATIC SAFE]*/{"type":"View","props":{"y":0,"x":0,"width":1136,"height":640},"child":[{"type":"Image","props":{"y":0,"x":0,"skin":"slots/bg.png"}},{"type":"Sprite","props":{"y":44,"x":155,"width":164,"var":"box0","height":477}},{"type":"Sprite","props":{"y":44,"x":319,"width":164,"var":"box1","height":475}},{"type":"Sprite","props":{"y":44,"x":483,"width":164,"var":"box2","height":475}},{"type":"Sprite","props":{"y":44,"x":647,"width":164,"var":"box3","height":475}},{"type":"Sprite","props":{"y":44,"x":810,"width":166,"var":"box4","height":475}},{"type":"Image","props":{"y":286,"x":997,"skin":"slots/girl_right.png"}},{"type":"Image","props":{"y":286,"x":-6,"skin":"slots/girl_left.png"}},{"type":"Image","props":{"y":2,"x":567,"var":"chinadolls","skin":"slots/logo.png","anchorX":0.5}},{"type":"Sprite","props":{"y":44,"x":812,"width":164,"var":"boxeffect4","mouseThrough":true,"height":475}},{"type":"Sprite","props":{"y":44,"x":812,"width":164,"var":"boxsprite4","mouseThrough":true,"height":475}},{"type":"AutoPanel","props":{"y":43,"x":869,"visible":false,"var":"autopanel","runtime":"ui.ui.slots.AutoPanelUI"}},{"type":"Dock","props":{"y":438,"x":0,"visible":true,"var":"dock","mouseThrough":true,"runtime":"ui.ui.slots.DockUI"}},{"type":"Sprite","props":{"y":44,"x":155,"width":164,"var":"boxeffect0","height":477}},{"type":"Image","props":{"y":32,"x":5,"var":"img_return","skin":"slots/frame_system.png"}},{"type":"Sprite","props":{"y":44,"x":155,"width":164,"var":"boxsprite0","height":475}},{"type":"Sprite","props":{"y":45,"x":319,"width":164,"var":"boxeffect1","height":475}},{"type":"Sprite","props":{"y":45,"x":319,"width":164,"var":"boxsprite1","height":475}},{"type":"Sprite","props":{"y":44,"x":484,"width":164,"var":"boxeffect2","height":475}},{"type":"Sprite","props":{"y":44,"x":484,"width":164,"var":"boxsprite2","height":475}},{"type":"Sprite","props":{"y":44,"x":649,"width":164,"var":"boxeffect3","height":475}},{"type":"Sprite","props":{"y":44,"x":649,"width":164,"var":"boxsprite3","height":475}},{"type":"Sprite","props":{"y":44,"x":484,"width":164,"var":"bigSprite","height":475}},{"type":"Sprite","props":{"y":42,"x":133,"width":865,"var":"linepanel","mouseThrough":true,"height":483,"cacheAs":"bitmap"},"child":[{"type":"LineView","props":{"y":9,"x":4,"var":"num0","runtime":"ui.ui.slots.LineViewUI"}},{"type":"LineView","props":{"y":46,"x":4,"var":"num1","runtime":"ui.ui.slots.LineViewUI"}},{"type":"LineView","props":{"y":83,"x":4,"var":"num2","runtime":"ui.ui.slots.LineViewUI"}},{"type":"LineView","props":{"y":120,"x":4,"var":"num3","runtime":"ui.ui.slots.LineViewUI"}},{"type":"LineView","props":{"y":157,"x":4,"var":"num4","runtime":"ui.ui.slots.LineViewUI"}},{"type":"LineView","props":{"y":194,"x":4,"var":"num5","runtime":"ui.ui.slots.LineViewUI"}},{"type":"LineView","props":{"y":231,"x":4,"var":"num6","runtime":"ui.ui.slots.LineViewUI"}},{"type":"LineView","props":{"y":268,"x":4,"var":"num7","runtime":"ui.ui.slots.LineViewUI"}},{"type":"LineView","props":{"y":305,"x":4,"var":"num8","runtime":"ui.ui.slots.LineViewUI"}},{"type":"LineView","props":{"y":342,"x":4,"var":"num9","runtime":"ui.ui.slots.LineViewUI"}},{"type":"LineView","props":{"y":379,"x":4,"var":"num10","runtime":"ui.ui.slots.LineViewUI"}},{"type":"LineView","props":{"y":416,"x":4,"var":"num11","runtime":"ui.ui.slots.LineViewUI"}},{"type":"LineView","props":{"y":456,"x":4,"var":"num12","runtime":"ui.ui.slots.LineViewUI"}},{"type":"LineView","props":{"y":9,"x":843,"var":"num13","runtime":"ui.ui.slots.LineViewUI"}},{"type":"LineView","props":{"y":46,"x":844,"var":"num14","runtime":"ui.ui.slots.LineViewUI"}},{"type":"LineView","props":{"y":83,"x":844,"var":"num15","runtime":"ui.ui.slots.LineViewUI"}},{"type":"LineView","props":{"y":120,"x":844,"var":"num16","runtime":"ui.ui.slots.LineViewUI"}},{"type":"LineView","props":{"y":157,"x":844,"var":"num17","runtime":"ui.ui.slots.LineViewUI"}},{"type":"LineView","props":{"y":194,"x":844,"var":"num18","runtime":"ui.ui.slots.LineViewUI"}},{"type":"LineView","props":{"y":231,"x":844,"var":"num19","runtime":"ui.ui.slots.LineViewUI"}},{"type":"LineView","props":{"y":268,"x":844,"var":"num20","runtime":"ui.ui.slots.LineViewUI"}},{"type":"LineView","props":{"y":305,"x":844,"var":"num21","runtime":"ui.ui.slots.LineViewUI"}},{"type":"LineView","props":{"y":342,"x":844,"var":"num22","runtime":"ui.ui.slots.LineViewUI"}},{"type":"LineView","props":{"y":379,"x":844,"var":"num23","runtime":"ui.ui.slots.LineViewUI"}},{"type":"LineView","props":{"y":416,"x":844,"var":"num24","runtime":"ui.ui.slots.LineViewUI"}},{"type":"Image","props":{"y":78,"x":103,"visible":false,"var":"line1","skin":"slots/line_1.png"}},{"type":"Image","props":{"y":422,"x":779,"visible":false,"var":"line2","skin":"slots/line_10.png","rotation":180}},{"type":"Image","props":{"y":262,"x":780,"visible":false,"var":"line3","skin":"slots/line_11.png","rotation":180}},{"type":"Image","props":{"y":79,"x":103,"visible":false,"var":"line4","skin":"slots/line_17.png"}},{"type":"Image","props":{"y":226,"x":103,"visible":false,"var":"line5","skin":"slots/line_1.png"}},{"type":"Image","props":{"y":91,"x":103,"visible":false,"var":"line6","skin":"slots/line_21.png"}},{"type":"Image","props":{"y":389,"x":784,"visible":false,"var":"line7","skin":"slots/line_21.png","rotation":180}},{"type":"Image","props":{"y":265,"x":773,"visible":false,"var":"line8","skin":"slots/line_17.png","rotation":180}},{"type":"Image","props":{"y":382,"x":103,"visible":false,"var":"line9","skin":"slots/line_1.png"}},{"type":"Image","props":{"y":81,"x":95,"visible":false,"var":"line10","skin":"slots/line_10.png"}},{"type":"Image","props":{"y":237,"x":104,"visible":false,"var":"line11","skin":"slots/line_11.png"}},{"type":"Image","props":{"y":422,"x":780,"visible":false,"var":"line12","skin":"slots/line_17.png","rotation":180}},{"type":"Image","props":{"y":251,"x":781,"visible":false,"var":"line13","skin":"slots/line_21.png","rotation":180}},{"type":"Image","props":{"y":420,"x":99,"visible":false,"var":"line14","skin":"slots/line_22.png","skewX":-180,"rotation":0,"anchorY":0,"anchorX":0}},{"type":"Image","props":{"y":423,"x":780,"visible":false,"var":"line15","skin":"slots/line_23.png","rotation":180}},{"type":"Image","props":{"y":421,"x":103,"visible":false,"var":"line16","skin":"slots/line_24.png","skewX":-180,"rotation":0}},{"type":"Image","props":{"y":245,"x":96,"visible":false,"var":"line17","skin":"slots/line_17.png"}},{"type":"Image","props":{"y":252,"x":774,"visible":false,"var":"line18","skin":"slots/line_19.png","rotation":180}},{"type":"Image","props":{"y":240,"x":96,"visible":false,"var":"line19","skin":"slots/line_19.png"}},{"type":"Image","props":{"y":428,"x":782,"visible":false,"var":"line20","skin":"slots/line_25.png","rotation":180}},{"type":"Image","props":{"y":239,"x":104,"visible":false,"var":"line21","skin":"slots/line_21.png"}},{"type":"Image","props":{"y":80,"x":102,"visible":false,"var":"line22","skin":"slots/line_22.png"}},{"type":"Image","props":{"y":86,"x":109,"visible":false,"var":"line23","skin":"slots/line_23.png"}},{"type":"Image","props":{"y":79,"x":102,"visible":false,"var":"line24","skin":"slots/line_24.png"}},{"type":"Image","props":{"y":85,"x":102,"visible":false,"var":"line25","skin":"slots/line_25.png"}}]},{"type":"SetUp","props":{"y":70,"x":1033,"visible":false,"var":"setup","runtime":"ui.ui.slots.SetUpUI"}},{"type":"Button","props":{"y":42,"x":16,"var":"btn_return","stateNum":1,"skin":"slots/back.png"}},{"type":"Image","props":{"y":32,"x":1037,"var":"img_system","skin":"slots/frame_system.png"}},{"type":"Button","props":{"y":42,"x":1047,"var":"system","stateNum":1,"skin":"slots/system.png"}},{"type":"Panel","props":{"y":0,"x":0,"width":1136,"visible":false,"var":"freegame","height":638},"child":[{"type":"Image","props":{"y":154,"x":428,"skin":"slots/icon_1_big.png","scaleY":0.85,"scaleX":0.85}},{"type":"Image","props":{"y":-9,"x":355,"skin":"slots/freegamelogo.png","scaleY":0.6,"scaleX":0.6}},{"type":"Label","props":{"y":5,"x":671,"width":86,"var":"freenum","text":"10","scaleY":1,"scaleX":1,"height":58,"fontSize":40,"font":"freefont","color":"#ffffff"}}]},{"type":"Panel","props":{"y":336,"x":0,"width":1136,"visible":false,"var":"rewardPanle","height":300},"child":[{"type":"Image","props":{"y":188,"x":556,"skin":"slots/freegamebonus.png","anchorX":0.5}},{"type":"Label","props":{"y":226,"x":724,"width":258,"var":"freeReward","text":"0","pivotX":250,"height":39,"fontSize":30,"font":"bnt","color":"#ffffff","align":"center"}}]},{"type":"Sprite","props":{"y":113,"x":20,"width":76,"var":"testsprite","height":313}}]};
+		override protected function createChildren():void {
+			View.regComponent("ui.ui.slots.AutoPanelUI",AutoPanelUI);
+			View.regComponent("ui.ui.slots.DockUI",DockUI);
+			View.regComponent("ui.ui.slots.LineViewUI",LineViewUI);
+			View.regComponent("ui.ui.slots.SetUpUI",SetUpUI);
+			super.createChildren();
+			createView(uiView);
+		}
+	}
+}
